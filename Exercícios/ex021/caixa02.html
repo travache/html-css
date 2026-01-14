@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightblue;
+            margin: 20px 0px 0px 0px;
+        }
+
+        header {
+            background-color: lightpink;
+            padding: 10px;
+            margin: 0px 10px 10px 10px;
+            border-radius: 15px; /* Configuração do arredondamento da borda do CABEÇALHO (HEADER) */
+            box-shadow: -12px 4px 20px 1px black;
+        }
+
+        header > h1 {
+            text-align: center;
+            font-size: 4em;
+        }
+
+        nav {
+            padding: 3px;
+            background-color: bisque;
+            box-shadow: -3px 4px 12px 1px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin: 0px 80px;
+            
+        }
+
+        main {
+            background-color: lightsalmon;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: -12px 4px 20px 1px black;
+        }
+
+        article {
+            background-color: rgb(211, 100, 57);
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: brown;
+            color: white;
+            padding: 1px;
+            box-shadow: 3px 2px 1px black;
+        }
+
+        footer {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 50px 0px 15px 0px;
+        }
+
+        footer > p {
+            text-align: center;
+            margin: 0px;
+        }
+
+        div#bola {
+            margin: 15px;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%; /* Arredondamento definido por porcentagem %.*/
+            background-color:black
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p><strong>Nigger Nigger Nigger</strong></p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o São Paulo Futebol Clube</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum impedit facilis nihil magnam magni, obcaecati repudiandae repellat delectus, itaque culpa quidem unde laboriosam cupiditate. Accusamus repellendus natus deserunt eligendi magnam.</p>
+                <aside>
+                    <p>Artigo escrito por Thiago Ravache P.</p>
+                </aside>
+            </article>
+
+            <article>
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Thiago Ravache Palandrane.</p>
+    </footer>
+
+
+    <div id="bola"></div>
+</body>
+</html>

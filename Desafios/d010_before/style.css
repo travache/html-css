@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(162, 238, 162);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-color: green;
+    color: white;
+    height: 227px;
+    background-image: linear-gradient(180deg, rgb(21, 240, 76), rgb(21, 155, 21), rgb(8, 73, 8));
+    box-shadow: 1px 3px 8px black;
+}
+
+header > h1 {
+    text-align: center;
+    padding: 43px;
+    margin: 0px;
+}
+
+header > p {
+    text-align: center;
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: 34px;
+    font-size: small;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px;
+    font-weight: bold;
+}
+
+main {
+    background-color: white;
+    margin: 3px 255px 0px 255px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 1px 7px 0px black;
+}
+
+section > h1 {
+    color: green;
+}
+
+section > h2 {
+    color: green;
+    background-color: rgb(211, 236, 211);
+    padding: 0px 0px 0px 5px;
+    background-image: linear-gradient(90deg, rgb(211, 236, 211), white);
+}
+
+h1#titulo {
+    margin-top: 0px;
+}
+
+main > p {
+    color: black;
+}
+
+#morrill {
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+}
+
+.droid {
+    color: green;
+    font-weight: bold;
+}
+
+#blok {
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+}
+
+#bugdroid {
+    margin: 0px 250px;
+}
+
+#video {
+    background-color: rgb(8, 41, 8);
+    padding: 30px;
+}
+
+#principal {
+    padding: 15px;
+}
+
+#baixo {
+    padding: 0px;
+    background-color: rgb(223, 248, 223);
+    margin: 15px;
+    border-radius: 15px;
+}
+
+#aprender {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.texto {
+    padding: 10px;
+}
+
+#esquerdo {
+    width: 400px;
+    display: inline-block;
+}
+
+#direito {
+    width: 400px;
+    display: inline-block;
+}
+
+.lista {
+    color: black;
+}
+
+#history {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+#android {
+    color: green;
+}
+
+#final {
+    padding: 15px;
+}
+
+#footer {
+    background-color: rgb(4, 77, 4);
+    margin: 0px;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
