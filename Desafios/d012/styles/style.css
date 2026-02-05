@@ -15,6 +15,7 @@
 
 html, body{
     min-height: 100vh;
+    font-family: var(--fonte-rodape);
     background-color: darkgray;
 }
 
@@ -27,6 +28,8 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte-titulo);
+    font-size: 10vw;
 }
 
 header > p{
@@ -46,6 +49,8 @@ a:hover{
 section{
     padding: 10vh 0px 10vh 30px;
     line-height: 2em;
+    font-family: var(--fonte-texto);
+    font-size: 3vw;
 }
 
 section.normal{
@@ -60,7 +65,8 @@ section.imagem{
 
 .imagem > p{
     background-color: rgb(85, 77, 77);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
 }
 
 footer{
